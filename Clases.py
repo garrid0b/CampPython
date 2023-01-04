@@ -11,12 +11,30 @@ class Juguete:
 class potato(Juguete):
     pass
 class Dino(Juguete):
-    pass
+    color=""
 
-p=Dino()
-p.enciende()
-print(p._encendido)
-p.apaga()
-print(p._encendido)
+    def __init__(self, nombre):
+        self.color="verde"
+        self.nombre=nombre
 
+p=Dino("Andres")
+print(p.color)
+print(p.nombre)
+class Proveedores:
+    IdProveedor=0
+    Nombre='Andres'
+class Categorias:
+    IdCategoria=0
+    Nombre=""
 
+class Productos:
+    idproducto=0
+    categoriaproducto=Categorias()
+    precio=0
+    tamaño=0
+    TipodeProducto=0
+    CIFproveedor=Proveedores()
+
+produ=Productos()
+produ.CIFproveedor.Nombre
+produ.categoriaproducto.IdCategoria
