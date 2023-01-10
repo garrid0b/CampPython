@@ -1,7 +1,7 @@
 from datetime import datetime
 import time
 
-def restar_hora():
+def Calcular_Salida():
         formato = "%H:%M:%S"
         now=datetime.now()
         now=now.strftime(formato)
@@ -13,5 +13,5 @@ def restar_hora():
             resultado = h1 - h2
             print("Aun Falta:", resultado, "Para Salir")
 
-restar_hora()
+Calcular_Salida()
 
