@@ -13,5 +13,5 @@ if __name__ == '__main__':
     try:
         crear()
     except FileExistsError:
-        print('El Archivo ya fue creado.')
+        print('El archivo ya fue creado.')
     abrir()
