@@ -8,6 +8,7 @@ def abrir():
     f.write('agregando lineas adicionales\n')
     f.write('parte de abrir nuevamente el archivo del ejercicio.\n')
     f.close()
+  
 
 if __name__ == '__main__':
     try:
@@ -15,3 +16,6 @@ if __name__ == '__main__':
     except FileExistsError:
         print('El archivo ya fue creado.')
     abrir()
+
+    
+    
